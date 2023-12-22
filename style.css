@@ -1,0 +1,36 @@
+body{
+    background-color: #abfae0;
+}
+h1{
+    color: rgb(247, 106, 106);
+}
+h2{
+    color: rgb(178, 178, 58);
+}
+a{
+    color: green;
+}
+a:hover{
+    color: rgb(50, 50, 250);
+}
+img{
+    width: 400px;
+    border: #0b402e 5px solid;
+    margin-left: 50px;
+}
+.big_text{
+    font-size: 1.5rem;
+}
+.super_text{
+    color: rgb(165, 98, 227);
+}
+ul{
+    list-style-type: square;
+}
+@font-face {
+	font-family: 'TeddyBear'; 
+	src: url(Fonts/teddy-bear.ttf); 
+}
+h1, h2{
+    font-family: 'TeddyBear';
+}
